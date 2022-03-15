@@ -10,12 +10,12 @@ class LinkedList:
         if self.first is None:
             self.first = new_node
         else:
-            temp = first
+            temp = self.first + 10 #this will blow up
             while temp.next is not None:
                 temp = temp.next
             temp.set_next(new_node)
         self.length += 1
-        print(self.length)
+        print(self.length) #made change here
 
 
     def print(self):
