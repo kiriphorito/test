@@ -12,7 +12,7 @@ class LinkedList:
         else:
             temp = self.first + 10 #this will blow up
             while temp.next is not None:
-                temp = temp.next
+                temp = temp.next if __name__ =  __main__
             temp.set_next(new_node)
         self.length += 1
         print(self.length) #made change here
