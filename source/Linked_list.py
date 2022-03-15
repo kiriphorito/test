@@ -10,7 +10,7 @@ class LinkedList:
         if self.first is None:
             self.first = new_node
         else:
-            temp = self.first
+            temp = first
             while temp.next is not None:
                 temp = temp.next
             temp.set_next(new_node)
