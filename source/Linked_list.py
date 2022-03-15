@@ -63,6 +63,7 @@ class LinkedList:
             if temp is None:
                 raise Exception("Index out of bounds")
             temp = temp.next
+        print(str(tamp.value) + " " + str(index))
         return temp.value
 
     def getLength(self):
