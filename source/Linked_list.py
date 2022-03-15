@@ -20,6 +20,7 @@ class LinkedList:
 
     def print(self):
         temp = self.first
+        (print(linkedlist))
         while temp is not None:
             print(temp.value, end = " ")
             temp = temp.next
